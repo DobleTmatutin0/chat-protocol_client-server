@@ -70,7 +70,7 @@ int main(int argc, char* argv[]) {
         exit(EXIT_FAILURE);
     }
 
-    // puts the app to listen for connections
+    // puts the app to listen to connections
     int listen_result = listen(sv_sck_fd, MAX_CLIENTS);
     if (listen_result == -1) {
         perror("[SERVIDOR] (ERROR) listen()\n");
@@ -78,7 +78,7 @@ int main(int argc, char* argv[]) {
     }
 
     while(1) {
-        
+
     }
 }
 
