@@ -3,7 +3,8 @@
         {
             "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/chat-protocol/common"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",
